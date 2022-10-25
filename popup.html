@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="popup.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+  <div id='popup'>
+    <h3 style="color:white;">Download video</h3>
+    <form method="post" action="{{ url_for('hello)}}">
+        <input id='start' type='text' name='start' placeholder="start">
+        <input id='stop' type="text" name='stop' placeholder="stop">
+        
+    </form>
+    <button id="download">Download</button>
+    
+    
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

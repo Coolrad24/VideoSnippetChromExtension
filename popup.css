@@ -1,0 +1,15 @@
+#popup{
+    margin:auto;
+    width:250px;
+    height:100px;
+    background-color:black;
+  }
+  
+  #textButton{
+    background:none;
+    border:blue;
+  }
+  #download{
+    background-color: aliceblue;
+    color:black;
+  }
